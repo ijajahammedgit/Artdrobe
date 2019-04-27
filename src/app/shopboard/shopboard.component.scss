@@ -1,0 +1,27 @@
+.carousel-inner img {
+    width: 100%;
+    //height: 100%;
+}
+.card-section{
+    margin-top: 3%;
+    padding: 0% 10% 3% 10%;
+    .cart-button-section{
+        text-align: center;
+        cursor: pointer;
+        
+        .cart-button{
+            border: 2px solid rgb(209, 216, 219);
+            border-radius: 5px;
+        }
+        
+    }
+    .cart-button-section :hover
+        {
+	        background: #2fce98;
+        }
+}
+
+.carousel-section{
+
+    //height: 100px;;
+}

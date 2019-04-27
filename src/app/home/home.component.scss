@@ -1,0 +1,128 @@
+.company-logo{
+    height: 40px;
+    width: 100px;
+}
+.nav-color{
+	background-color: #fff !important;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main_nav ul li.active a,
+.main_nav ul li a:hover
+{
+	color: #2fce98;
+}
+
+// .header_search
+// {
+// 	margin-right: 65px;
+// }
+.header_search_form
+{
+	display: block;
+}
+.search_input
+{
+	width: 200px;
+	height: 39px;
+	border: solid 1px #4a4a4a;
+	border-radius: 20px;
+	outline: none;
+	text-align: center;
+	font-size: 16px;
+	color: #2e2e2e;
+	font-weight: 300;
+	box-shadow: 0 0 1px 0px #4a4a4a inset, 0 0 1px 0px #4a4a4a;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.search_input:focus,
+.search_input:hover
+{
+	border-color: #2fce98;
+	box-shadow: 0 0 1px 0px #2fce98 inset, 0 0 1px 0px #2fce98;
+}
+.search_input::-webkit-input-placeholder
+{
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+}
+.search_input:-moz-placeholder
+{
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+}
+.search_input::-moz-placeholder
+{
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+} 
+.search_input:-ms-input-placeholder
+{ 
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+}
+.search_input::input-placeholder
+{
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+}
+.header_search_button
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 0;
+	width: 44px;
+	height: 39px;
+	border: none;
+	outline: none;
+	background: transparent;
+	cursor: pointer;
+}
+.main_nav
+{
+    margin-left: 40px;
+    margin-top: 2px;
+}
+.main_nav ul li:not(:last-of-type)
+{
+	margin-right: 20px;
+}
+.main_nav ul li a
+{
+	font-size: 20px;
+	color: #2e2e2e;
+	font-weight: 400;
+	text-decoration: none;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+.main_nav ul li.active a,
+.main_nav ul li a:hover
+{
+	color: #2fce98;
+}
+.user
+{
+    margin-right: 28px;
+    margin-left: 28px;
+}
+.cart{
+
+}
