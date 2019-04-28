@@ -1,0 +1,110 @@
+{
+    "manufacturer":[
+        {
+            "id":1,
+            "name":"TCS"
+        },
+        {
+            "id":2,
+            "name":"CTS"
+        },
+        {
+            "id":3,
+            "name":"WIPRO"
+        },
+        {
+            "id":4,
+            "name":"HCL"
+        },
+        {
+            "id":5,
+            "name":"Accenture"
+        },
+        {
+            "id":6,
+            "name":"Genpact"
+        },
+        {
+            "id":7,
+            "name":"Capgimini"
+        }
+    ],
+    "categories":[{
+        
+              "name": "A", 
+              "id": 1, 
+              "subcategory":[
+                { "name" :"A-AA" , "id":1},
+                {"name": "A-BB","id":2},
+                {"name": "A-CC","id":3},
+                {"name": "A-DD","id":4}
+                ]
+          
+            },
+            {"name": "B", "id": 2,
+            "subcategory":[
+              {"name" :"B-AA","id":5},
+              {"name": "B-BB","id":6},
+              {"name": "B-CC","id":7},
+              {"name": "B-DD","id":8}
+              ]
+            },
+            {"name": "C", "id": 3,
+            "subcategory":[
+              {"name":"C-AA","id":9},
+              {"name":"C-BB","id":10},
+              {"name":"C-CC","id":11},
+              {"name":"C-DD","id":12}
+              ]
+            },
+            {"name": "D", "id": 4,
+            "subcategory":
+            [
+              {"name":"D-AA","id":13},
+              {"name":"D-BB","id":14},
+              {"name":"D-CC","id":15},
+              {"name":"D-DD","id":16}
+              ]
+            }
+          ],
+
+          "purchaseTypes":[
+            {
+                "id":1,
+                "name":"Accured"
+            },
+            {
+                "id":2,
+                "name":"Old"
+            },
+            {
+                "id":3,
+                "name":"New"
+            }
+          ],
+
+          "measurementType":[
+            {
+                "id":7,
+                "name":"CM"
+            },
+            {
+                "id":7,
+                "name":"MM"
+            },
+            {
+                "id":7,
+                "name":"DM"
+            },
+            {
+                "id":7,
+                "name":"KM"
+            }
+    ]
+
+
+
+
+
+    
+}
