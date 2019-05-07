@@ -1,9 +1,9 @@
 .company-logo{
-    height: 40px;
+    height: 35px;
     width: 100px;
 }
 .nav-color{
-	background-color: #fff !important;
+	background-color: #000 !important;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -104,7 +104,7 @@
 .main_nav ul li a
 {
 	font-size: 20px;
-	color: #2e2e2e;
+	color: #ffffff;  //2e2e2e
 	font-weight: 400;
 	text-decoration: none;
     
@@ -123,6 +123,7 @@ ul{
     margin-right: 28px;
     margin-left: 28px;
 }
-.cart{
-
+.fa-color{
+	color: #ffffff;
+	cursor: pointer;
 }
