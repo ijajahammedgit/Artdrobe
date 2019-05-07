@@ -257,12 +257,14 @@
 }
 .footer_social_list li:hover
 {
-	border-color: #2fce98;
+	//border-color: #2fce98;
+	border-color: rgb(123, 96, 197);
 	transform: translateY(-5px);
 }
 .footer_social_list li a:hover i
 {
 	color: #2fce98;
+	
 }
 .footer_bar
 {
@@ -286,6 +288,7 @@
 .footer_nav ul li a:hover
 {
 	color: #2fce98;
+	
 }
 .copyright
 {
@@ -293,3 +296,21 @@
 	color: #969696;
 	font-weight: 300;
 }
+
+/* social media icon color*/
+
+.fa-facebook-official {
+    color: #3b5998 !important;
+  }
+
+  .fa-youtube-play{
+	  color: #e52d27 !important;
+  }
+
+  .fa-google-plus{
+		color: #dd4b39 !important;
+  }
+  
+  .fa-instagram {
+	color: #dd4b39 !important;
+  }
